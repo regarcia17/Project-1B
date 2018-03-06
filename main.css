@@ -1,0 +1,286 @@
+body {
+  background-color: rgba(250, 70, 100, 0.5);
+  background-image: url(media/pinkwall.jpg);
+  background-attachment: fixed;
+  /*background-size: cover; */ }
+
+.main-container {
+  max-width: 700px;
+  min-height: 1800px;
+  box-sizing: border-box;
+  padding: 40px;
+  margin: auto;
+  background-image: url(media/paper.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3); }
+
+h1 {
+  font-family: "Monoton", cursive;
+  font-size: 50px;
+  text-align: center; }
+
+h3 {
+  font-family: cursive;
+  text-align: center; }
+
+li {
+  display: inline-block;
+  padding: 10px;
+  border: solid 1px black;
+  font-family: 'Sigmar One', cursive; }
+
+nav {
+  text-align: center; }
+
+li:hover {
+  background-color: peachpuff; }
+
+li a {
+  color: black; }
+
+#food a {
+  color: white; }
+
+#places a {
+  color: black; }
+
+#music a {
+  color: white; }
+
+#fashion a {
+  color: black; }
+
+.food-png #arroz {
+  width: 150px;
+  height: 84px;
+  position: static;
+  margin-top: -200%;
+  margin-left: 47%;
+  transform: rotate(-30deg); }
+.food-png #nuggets {
+  width: 150px;
+  height: 84px;
+  position: static;
+  margin-right: 15%;
+  margin-top: 0%; }
+.food-png #tacos {
+  width: 150px;
+  height: 84px;
+  position: static;
+  margin-top: -25%;
+  margin-left: 80%;
+  transform: rotate(40deg); }
+
+.places-png #tower {
+  width: 150px;
+  height: 180px;
+  position: static;
+  margin-top: -20%;
+  margin-left: 0%; }
+.places-png #flag {
+  width: 150px;
+  height: 120px;
+  position: static;
+  margin-top: -10%;
+  margin-left: 30%; }
+.places-png #camera {
+  width: 150px;
+  height: 120px;
+  position: static;
+  margin-top: -4%;
+  margin-left: 6%; }
+
+.music-pics #love {
+  border: solid 10px black;
+  width: 130px;
+  height: 130px;
+  position: static;
+  margin-top: -4%;
+  margin-right: 30%; }
+.music-pics #peace {
+  border: solid 10px black;
+  width: 130px;
+  height: 130px;
+  position: static;
+  margin-top: -24%;
+  margin-right: 0%; }
+.music-pics #joy {
+  border: solid 10px black;
+  width: 210px;
+  height: 110px;
+  position: static;
+  margin-top: 1%;
+  margin-right: 8%; }
+
+.fashion-pics #fashion1 {
+  width: 140px;
+  height: 230px;
+  position: static;
+  margin-top: 0%;
+  margin-left: 0%;
+  transform: rotate(20deg); }
+.fashion-pics #fashion2 {
+  width: 170px;
+  height: 250px;
+  margin-top: -40%;
+  margin-left: 26%;
+  transform: rotate(-20deg); }
+
+.trail {
+  width: 200px;
+  height: 200px;
+  position: static;
+  margin-top: 10%;
+  margin-left: 34%;
+  display: block; }
+
+.notes {
+  width: 220px;
+  height: 120px;
+  position: static;
+  margin-top: -6%; }
+
+.watch {
+  width: 175px;
+  height: 175px;
+  position: static;
+  margin-right: 35%;
+  margin-top: -12%; }
+
+.info button {
+  position: static;
+  margin-top: 10%;
+  margin-left: 42%; }
+.info p {
+  display: none;
+  font-size: 15px;
+  width: 600px;
+  padding: 5px;
+  border: solid 1px black;
+  background-color: rgba(250, 70, 100, 0.5);
+  font-family: 'Kaushan Script', cursive; }
+
+#food {
+  border-radius: 25px;
+  background-image: url(media/burger.jpg);
+  background-position: center;
+  padding: 20px;
+  width: 250px;
+  height: 200px;
+  background-size: cover;
+  background-size: 400px;
+  font-family: 'Kaushan Script', cursive;
+  color: azure;
+  font-size: 50px;
+  text-align: center;
+  position: static;
+  margin-top: 5%;
+  margin-left: -9%; }
+
+#places {
+  border-radius: 25px;
+  background-image: url(media/travel.jpg);
+  background-position: center;
+  padding: 20px;
+  width: 250px;
+  height: 200px;
+  background-size: cover;
+  background-size: 400px;
+  font-family: 'Kaushan Script', cursive;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  position: static;
+  margin-top: 15%;
+  margin-left: 62%; }
+
+#music {
+  border-radius: 25px;
+  background-image: url(media/vinyl.jpg);
+  background-position: center;
+  padding: 20px;
+  width: 250px;
+  height: 200px;
+  background-size: cover;
+  background-size: 400px;
+  font-family: 'Kaushan Script', cursive;
+  color: azure;
+  font-size: 50px;
+  text-align: center;
+  position: static;
+  margin-top: 15%;
+  margin-left: -9%; }
+
+#fashion {
+  border-radius: 25px;
+  background-image: url(media/fashion.jpg);
+  background-position: center;
+  padding: 20px;
+  width: 250px;
+  height: 200px;
+  background-size: cover;
+  background-size: 400px;
+  font-family: 'Kaushan Script', cursive;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  position: static;
+  margin-top: 15%;
+  margin-left: 62%; }
+
+#food:hover {
+  color: lightpink; }
+
+#places:hover {
+  color: lightpink; }
+
+#music:hover {
+  color: lightpink; }
+
+#fashion:hover {
+  color: lightpink; }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px; }
+
+p {
+  font-family: 'Sigmar One', cursive;
+  text-align: center;
+  color: black; }
+
+.paris {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); }
+
+.travel {
+  display: none;
+  background-image: url(media/cuba.jpg); }
+
+.turtle {
+  display: none;
+  background-image: url(media/turtle.gif); }
+
+.animation {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+
+h2:hover {
+  transform: translateY(-5px);
+  transition: .3s all; }
+
+h2 {
+  cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */
